@@ -24,7 +24,7 @@ wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.r
 ```
 2 Import the verification key using the package manager RPM
 ```
-rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+rpm --import http://pkg.jenkins-ci.org/redhat-rc/jenkins-ci.org.key
 ```
 3 Install Jenkins with yum command
 ```
